@@ -13,7 +13,7 @@ Usage
 
 - Wire your components with SPI to Arduino like the photo below
 - Wire the two slave lines
-- Copy LS7366R.h and LS7366R.cpp in your project
+- Copy LS7366R.h and LS7366R.cpp in your project from LS7366R_example
 
 ```cpp
 #include <SPI.h>
@@ -39,7 +39,16 @@ void loop() {
 }
 ```
 
-![Arduino LS7366R](https://raw.githubusercontent.com/werdroid/Arduino_LS7366R/master/LS7366R_example/breadboard_pic.jpg)
+Example
+=========
+
+This example was done with an 1x Arduino Micro, 2x LS7366R, 1x oscillator 32Mhz, 1x encoder OME-A NEMICON
+
+![Arduino LS7366R](https://raw.githubusercontent.com/werdroid/Arduino_LS7366R/master/LS7366R_example/breadboard_pic_mini.jpg)
+![Arduino LS7366R](https://raw.githubusercontent.com/werdroid/Arduino_LS7366R/master/LS7366R_example_fritzing/LS7366R_double_mini.jpg)
+
+LS7366R provided by LCI CSI and Anaheim Automation.
+Encoder provided by Vicatronic.
 
 License
 ----
